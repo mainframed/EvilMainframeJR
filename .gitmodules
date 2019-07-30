@@ -1,0 +1,3 @@
+[submodule "TShOcker"]
+	path = TShOcker
+	url = https://github.com/mainframed/TShOcker.git
